@@ -24,7 +24,7 @@ I uploaded two versions of the code to show the difference between a raw baselin
 ## Key Learnings
 Comparing the two models confirms that **Feature Engineering** often yields higher ROI (Return on Investment) than model complexity alone. While the basic XGBoost is powerful, "feeding" it with socially meaningful features (like Titles) significantly improves its predictive power.
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Python**
 * **Pandas** (Data Manipulation)
 * **XGBoost** (Gradient Boosting Decision Trees)
