@@ -19,7 +19,7 @@ I uploaded two versions of the code to show the difference between a raw baselin
 * **Key Improvements:**
     * **Feature Engineering:** Extracted **Titles** (e.g., Mr, Miss, Master) from names and created a **FamilySize** feature. This revealed that social status and family structure are critical survival factors.
     * **Hyperparameter Tuning:** Implemented **GridSearchCV** with 5-fold cross-validation to automatically find the best tree depth and learning rate.
-* **Performance:** Improved accuracy to **~82-84%** (Top tier stability).
+* **Performance:** Improved accuracy to **~84-86%** .
 
 ## Key Learnings
 Comparing the two models confirms that **Feature Engineering** often yields higher ROI (Return on Investment) than model complexity alone. While the basic XGBoost is powerful, "feeding" it with socially meaningful features (like Titles) significantly improves its predictive power.
